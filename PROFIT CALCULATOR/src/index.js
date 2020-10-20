@@ -6,9 +6,11 @@
 
 
 // Write the function to return the profit obtained.
-function find_Profit(x,a,b){
+var profit
+function find_Profit(x, a, b) {
+    profit = ((x * a) - (x * b)) - 100
 
-    return null;
+    return profit;
 }
 
 //Use SpecRunner to check the Test Cases.
